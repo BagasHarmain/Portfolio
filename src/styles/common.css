@@ -1,0 +1,52 @@
+/* common.css */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Arial', sans-serif;
+    background-color: #f8f8f8;
+}
+
+/* Styles for the header or top navigation */
+.top-nav {
+    background-color: #ffffff; /* Color for the top part */
+    padding: 5px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.btn {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #333;
+    text-decoration: none;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.btn:hover {
+    background-color: #f0f0f0;
+    color: #007bff;
+}
+
+.btn-primary {
+    background-color: #ffffff;
+}
+
+.btn-secondary {
+    background-color: #ffffff;
+}
+
+.btn-tertiary {
+    background-color: #e74c3c;
+}
+
+/* Styles for the body/content area */
+.main-content {
+    background-color: #f8f8f8; /* Color for the bottom part */
+    padding: 20px;
+    color: #333;
+}
