@@ -13,12 +13,6 @@ body {
     text-align: right;
 }
 
-.brand-text {
-    font-size: 24px; /* Adjust the font size as needed */
-    color: #333; /* Dark gray text color for the brand text */
-    margin-left: 20px; /* Provide some spacing to the right of the brand text */
-}
-
 .left-text {
     /* Style for the text on the left */
     font-size: 18px;
